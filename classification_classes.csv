@@ -1,0 +1,50 @@
+class,stem,subject,credits,work
+Calculus,Yes,Computer Science,4,Many
+CPSC 121,Yes,Computer Science,3,Average
+Ballet,No,Core,2,Few
+Pointe,No,Core,1,Few
+Seminar,No,Core,3,Average
+Philosophy 1,No,Core,3,Few
+Comms,No,Core,3,Few
+BIO 105,Yes,Biology,3,Many
+BIO 105L,Yes,Biology,1,Average
+Philosophy 2,No,Core,3,Few
+African Religion,No,Core,3,Average
+CPSC 122,Yes,Computer Science,3,Average
+Chemistry,Yes,Biology,3,Many
+Chemistry Lab,Yes,Biology,1Average
+BIO 106,Yes,Biology,3,Average
+Software Development,Yes,Computer Science,3,Many
+Discrete Math,Yes,Computer Science,3,Average
+Computer Organization,Yes,Computer Science,3,Average
+Dance History,No,Core,3,Few
+Biology,Yes,Biology,3,Many
+Biology Lab,Yes,Biology,1,Average
+History,No,Core,3,Many
+Computer Science,Yes,Computer Science,3,Average
+Data Science,Yes,Computer Science,3,Many
+Philosophy,No,Core,3,Few
+Business,No,Business,2,Average 
+History of Food,No,Core,3,
+Religion,No,Core,3,
+Global Studies,No,Core,3,
+Colloquim,No,Core,3,
+CPSC 348,Yes,Computer Science,3,
+CPSC 334,Yes,Computer Science,3,
+BUSN 235,No,Business,3,
+HONS 432,No,Core,3,
+CPSC 391,Yes,Computer Science,3,
+CPSC 354,Yes,Computer Science,3,
+BUSN 331,No,Business,2,
+CPSC 346,Yes,Computer Science,3,
+BUSN 441,No,Business,3,
+CPSC 491,Yes,Computer Science,2,
+CPSC 491L,Yes,Computer Science,1,
+CPSC 499,Yes,Computer Science,1,
+Literature,No,Core,3,
+HONS 499,No,Core,3,
+CPSC492L,Yes,Computer Science,3,
+BUSN 342,No,Business,3,
+BUSN 444,No,Business,3,
+Colloquim,No,Core,3,
+BIO 305,Yes,Biology,4,
