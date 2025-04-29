@@ -37,12 +37,13 @@ the weeks of the semester.
 '''
 def assignments_per_week():
     df.fillna(0, inplace = True) # for any missing data, data handling
-    assignment_columns = ["Online Task", "Paper Task", "Tests", "Quizzes","Number of Readings"]
     df.columns = df.columns.str.strip() # cleaning
+    assignment_columns = ["Online Task", "Paper Task", "Tests", "Quizzes","Number of Readings"]
     df["Total Assignments"] = df[assignment_columns].sum(axis=1) # summing up all the assignments done
+    weekly_totals = df.groupby("Week")["Total Assignments"].sum().reset_index()
     plt.figure()
     plt.title("Assignments Done Per Week") 
-    plt.bar(df["Week"], df["Total Assignments"], color = "pink") # the week and the total assigments (and pink yay)
+    plt.bar(weekly_totals["Week"], weekly_totals["Total Assignments"], color = "pink") # the week and the total assigments (and pink yay)
     plt.xlabel("Week")
     plt.ylabel("Total Assignments Done")
     plt.xticks(df["Week"]) # marked by week
