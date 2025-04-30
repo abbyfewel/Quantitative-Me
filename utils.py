@@ -167,8 +167,8 @@ def stem_v_non_stem_sig():
     # average per week
     xbar_stem = stem_df["total"].mean()
     xbar_non_stem = non_stem_df["total"].mean()
-    print("Average amount of assignments that were STEM: ", xbar_stem)
-    print("Average amount of assignments that were non-STEM:  ", xbar_non_stem, "\n")
+    print("Average number of assignments of STEM classes: ", xbar_stem)
+    print("Average number of assignments of non-STEM classes:  ", xbar_non_stem, "\n")
     s_stem = stem_df["total"].std()
     s_non_stem = non_stem_df["total"].std()
     n_stem = stem_totals # getting lengths to use in the degrees of freedom for equations
