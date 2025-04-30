@@ -152,6 +152,11 @@ def stem_v_non_stem():
     plt.title("Stem Assignments Verus Non-STEM Assignments")
     plt.show()
 
+'''
+This function estimates significance of assignments given out in STEM vs in non STEM classes
+to predict if there is a different in workload (in terms of number of assignments, 
+not in terms of time spent on them).
+'''
 def stem_v_non_stem_sig():
     stem_classes = ["Biology", "Biology Lab", "Computer Science", "Data Science"]
     non_stem_classes = ["Business", "History", "Philosophy"]
