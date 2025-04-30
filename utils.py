@@ -81,6 +81,7 @@ def tests_v_quizzes():
     plt.title("Amount of Quizzes and Tests Taken this Semester")
     plt.xlabel("Category")
     plt.ylabel("Amount taken")
+    plt.savefig("tests_vs_quizzes_bar.png")
     plt.show()
 
 '''
@@ -95,6 +96,7 @@ def pages_per_week():
     plt.xlabel("Week")
     plt.ylabel("Pages Read")
     plt.title("Pages Read Each Week of the Semester")
+    plt.savefig("pages_per_week.png")
     plt.show()
 
 '''
@@ -150,6 +152,7 @@ def stem_v_non_stem():
     plt.figure()
     plt.pie([stem_totals, non_stem_totals], labels=["STEM", "Non-STEM"], autopct="%1.1f%%") # printing a pie chart with the totals data with labels and percentages
     plt.title("Stem Assignments Verus Non-STEM Assignments")
+    plt.savefig("stem_vs_non_stem_pie.png")
     plt.show()
 
 '''
